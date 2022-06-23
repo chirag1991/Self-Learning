@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\MyStore</_PublishTargetUrl>
+    <History>True|2022-06-23T09:34:04.5043599Z;False|2022-06-23T03:32:06.5825207-06:00;True|2022-06-23T03:10:36.8210216-06:00;False|2022-06-23T03:06:56.5448279-06:00;False|2022-06-23T03:03:37.3363856-06:00;</History>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="connectionString">
+      <Value>Data Source =.%3bInitial Catalog=mystore%3bIntegrated Security=True%3bConnect Timeout=30%3bEncrypt=False%3bTrustServerCertificate=False%3bApplicationIntent=ReadWrite%3bMultiSubnetFailover=False %3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
