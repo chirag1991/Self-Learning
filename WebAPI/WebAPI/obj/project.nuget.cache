@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0RW5DUPheKSIEtXbueJvCG+SfISGuBvEjzsY+Ary2mM0Qb+bgiVkYtn6ciMXSUuKIqlQekS1fOLbzODEjagquQ==",
+  "dgSpecHash": "lw7wUlaeRSDesKfPMP2nlqGKy1V3ZZUJ9z0X9t+krYaoS4pQIiT16PNCdSYvW8ErMVtC2pNsqabHwvDCbplc8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chira\\OneDriveCampbellsvilleUniversity\\Desktop\\Learning\\2.Net\\DotnetCoreWebApp\\ReactJsCoreApi\\WebAPI\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\chira\\OneDriveCampbellsvilleUniversity\\Desktop\\Learning\\Self-Learning\\WebAPI\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chira\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.9\\microsoft.aspnetcore.jsonpatch.3.1.9.nupkg.sha512",
     "C:\\Users\\chira\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.9\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.9.nupkg.sha512",
