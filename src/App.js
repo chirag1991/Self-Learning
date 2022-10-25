@@ -1,8 +1,8 @@
 import React from "react";
 
-import Expenses from "./Components/Expenses";
+import Expenses from "./Components/Expenses/Expenses";
 
-function App(){
+const App = () => {
 let expenses = [
     {
         id :'e1',
@@ -30,9 +30,6 @@ let expenses = [
     }
 ];
 
-    let expenseDate = new Date(2021, 3, 23);
-    let expenseTitle = "School Fee";
-    let expenseAmount = 200;
     return(
         <div>
         <h1>First Componrnt from App.js</h1>
