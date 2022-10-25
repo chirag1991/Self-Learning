@@ -31,10 +31,14 @@ let expenses = [
     }
 ];
 
+const addExpenseHandler = (expense) => {
+    console.log(expense);
+};
+
     return(
         <div>
         <h1>First Componrnt from App.js</h1>
-        <NewExpense/>
+        <NewExpense onAddExpense={addExpenseHandler}/>
         <Expenses item = {expenses}/>
         </div>
     );

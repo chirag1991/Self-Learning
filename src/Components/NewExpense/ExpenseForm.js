@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./ExpenseForm.css";
 
-const ExpenseForm = ()=>
+const ExpenseForm = (props)=>
 {
     const [enteredTitle, setEnteredTitle] = useState('');
     const [enteredAmount, setEnteredAmount] = useState('');
@@ -25,10 +25,13 @@ const ExpenseForm = ()=>
         event.prevantDefault();
 
         const expenseData = {
-            title: enterdTitle,
-            amount: enterdAmount,
-            date: new Date(enterdDate)
+            title: enteredTitle,
+            amount: enteredAmount,
+            date: new Date(enteredDate)
         }
+
+        //sending the data from child to parent component
+        props.onSaveExpenseData(expenseData)
 
         console.log(expenseData);
         setEnteredTitle('');
