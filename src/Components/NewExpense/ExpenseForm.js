@@ -21,10 +21,10 @@ const ExpenseForm = (props)=>
     };
 
     const formSubmitHandler= (event)=>
-    {
-        event.prevantDefault();
+     {
+         event.preventDefault();
 
-        const expenseData = {
+            const expenseData = {
             title: enteredTitle,
             amount: enteredAmount,
             date: new Date(enteredDate)
@@ -38,6 +38,8 @@ const ExpenseForm = (props)=>
         setEnteredAmount('');
         setEnteredDate('');
     }
+
+    
 
     return(
         <form onSubmit={formSubmitHandler}>
